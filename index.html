@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
 <head>
 <link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 <title>myname</title>
 
 </head>
 <body>
-    <nav id="navbar">
+    <div class="container">
+        <button class=".btn-danger">new button </button>
+        <button type="button" class="btn btn-warning">Warning</button>
+    <nav id="navbar" class="navbar sticky-top navbar-light bg-light" style="width:45%">
         <header> Outline </header>
         <ul>
-          <li><a class="nav-link" href="#1_a">1 a</a></li>
+          <li><a class="nav-link"  href="#1_a">1 a</a></li>
            <li><a class="nav-link" href="#2_b">2 b</a></li> 
            <li><a class="nav-link" href="#3_c">3 c</a></li> 
            <li><a class="nav-link" href="#4_d">4 d</a></li>  
@@ -19,15 +25,18 @@
            <li><a class="nav-link" href="#7_g">7 g</a></li>   
         </ul>    
     </nav>
-<main id ="main-doc">
+<main id ="main-doc" style="margin-left:25%">
    
 <section class="main-section" id="1_a">
         <header id="topic-new">1 a</header>
-        <li> my points </li>
-        <li> my points </li>
-        <li> my points </li>
-        <li> my points </li>
-        <li> my points </li>
+        <ul>
+            <li> my points </li>
+            <li> my points </li>
+            <li> my points </li>
+            <li> my points </li>
+            <li> my points </li>
+        </ul>
+    
         <p>1</p>
         <p>1.1</p>
         <p>1.3</p>
@@ -87,7 +96,7 @@
 </section>
 
 </main>
-
+</div>
 </body>
 
 </html>
